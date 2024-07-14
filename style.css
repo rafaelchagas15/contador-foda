@@ -23,6 +23,8 @@ body{
     align-items: center;
     height: 100vh; 
     margin: 0;
+    background-image: url(img/first-sonic-the-hedgehog-3-footage-at-cinemacon-revealed-sha_wun4.jpg);
+    background-size: cover;
 }
 
 #container {
@@ -42,4 +44,29 @@ body{
     text-align: center;
     user-select: none;
     cursor: pointer;
+}
+
+.btn2:hover{
+    background: #636663 ;
+    transition: 1s;
+}
+
+
+.btn3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    padding: 40px 40px;
+    width: 50px;
+    color: #fff;
+    background: rgb(0, 0, 0);
+    border: 1px solid #555 ;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.btn3:hover{
+    background: #636663 ;
+    transition: 1s;
 }
