@@ -1,0 +1,45 @@
+.btn{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    padding: 40px 40px;
+    width: 50px;
+    color: #fff;
+    background: rgb(0, 0, 0);
+    border: 1px solid #555 ;
+    border-radius: 5px;
+  text-align: justify;
+    user-select: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #636663 ;
+    transition: 1s;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+#container {
+    text-align: center; 
+}
+
+
+.btn2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    padding: 40px 40px;
+    width: 50px;
+    color: #fff;
+    background: rgb(0, 0, 0);
+    border: 1px solid #555 ;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
